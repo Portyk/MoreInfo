@@ -84,6 +84,15 @@
     .header__logo {
         font-size: 48px;
     }
+    #header__logo {
+        display: none;
+    }
+    .header__logo__mobile {
+        display: block;
+        font-size: 48px;
+        font-weight: 700;
+        color: aqua;
+    }
 
     /* Search-box */
     .search-box {
@@ -200,6 +209,13 @@
         margin-left: 0;
         margin-bottom: 50px;
         font-size: 36px;
+    }
+    .content__HD {
+        padding-top: 0;
+        margin-bottom: 16px;
+    }
+    #content__films {
+        margin-top: 24px;
     }
 
     /* P */
@@ -347,6 +363,17 @@
     .end__inner {
         font-size: 92px;
     }
+
+    /* Films-Books-Games */
+    .films-books-games {
+        flex-direction: column;
+        font-size: 24px;
+    }
+    .films {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 @media only screen and (max-width: 480px) {
     /* Header */
@@ -356,6 +383,15 @@
     }
     .header__logo {
         font-size: 32px;
+    }
+    #header__logo {
+        display: none;
+    }
+    .header__logo__mobile {
+        display: block;
+        font-size: 32px;
+        font-weight: 700;
+        color: aqua;
     }
 
     /* Search-box */
@@ -473,6 +509,12 @@
         margin-left: 0;
         margin-bottom: 30px;
         font-size: 18px;
+    }
+    .content__HD {
+        padding-top: 0;
+    }
+    #content__films {
+        margin-top: 12px;
     }
 
     /* P */
@@ -620,6 +662,17 @@
     .end__inner {
         font-size: 64px;
     }
+
+    /* Films-Books-Games */
+    .films-books-games {
+        flex-direction: column;
+        font-size: 16px;
+    }
+    .films {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 @media only screen and (max-width: 360px) {
     /* Header */
@@ -629,6 +682,12 @@
     }
     .header__logo {
         font-size: 24px;
+    }
+    #header__logo {
+        display: block;
+    }
+    .header__logo__mobile {
+        display: none;
     }
 
     /* Search-box */
@@ -720,6 +779,13 @@
     #content__full {
         margin-top: 35px;
         margin-bottom: 35px;
+    }
+    .content__HD {
+        padding-top: 0;
+    }
+    #content__films {
+        margin-top: 0;
+        margin-bottom: 24px;
     }
 
     /* P */
@@ -868,6 +934,17 @@
     .end__inner {
         font-size: 64px;
     }
+
+    /* Films-Books-Games */
+    .films-books-games {
+        flex-direction: column;
+        font-size: 16px;
+    }
+    .films {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 @media only screen and (max-width: 320px) {
     /* Header */
@@ -877,6 +954,12 @@
     }
     .header__logo {
         font-size: 24px;
+    }
+    #header__logo {
+        display: block;
+    }
+    .header__logo__mobile {
+        display: none;
     }
 
     /* Search-box */
@@ -969,6 +1052,9 @@
     #content__full {
         margin-top: 35px;
         margin-bottom: 35px;
+    }
+    .content__HD {
+        padding-top: 0;
     }
 
     /* P */
@@ -1116,5 +1202,16 @@
     }
     .end__inner {
         font-size: 64px;
+    }
+
+    /* Films-Books-Games */
+    .films-books-games {
+        flex-direction: column;
+        font-size: 16px;
+    }
+    .films {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 }
