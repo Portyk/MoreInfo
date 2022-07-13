@@ -52,9 +52,6 @@ body {
     font-weight: 700;
     color: aqua;
 }
-.header__logo__mobile {
-    display: none;
-}
 
 /* Search-box */
 .search-box {
@@ -293,22 +290,6 @@ body {
     margin-left: 10px;
     opacity: 1;
 }
-.content__HD {
-    background-color: #252525;
-    color: white;
-    width: 100%;
-    margin-top: 18px;
-    padding-top: 2px;
-    padding-left: 24px;
-    padding-right: 24px;
-    line-height: 1.5;
-    box-shadow: 5px 10px 10px black;
-    font-family: Arial;
-}
-#content__films {
-    margin-top: 0;
-    padding: 24px;
-}
 
 /* Mobile */
 .mobile-text {
@@ -546,127 +527,4 @@ th {
 }
 .sections:hover {
     opacity: 1;
-}
-
-/* Films-Books-Games */
-.films-books-games {
-    display: flex;
-    justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-.films {
-    display: flex;
-    justify-content: space-evenly;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-
-/* Block */
-.block__films {
-    position: relative;
-    display: inline-block;
-    width: 300px;
-    height: 450px;
-    overflow: hidden;
-    box-shadow: 5px 10px 10px black;
-    border: 1px solid aqua;
-}
-.block__text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-    width: calc(100%);
-    height: 25%;
-    overflow: hidden;
-    font-size: 24px;
-    color: aqua;
-    text-align: center;
-    background-color: black;
-    box-shadow: 0 0 10px 10px black;
-    opacity: 0;
-    transform: translate(0px, 100px) rotate(0deg);
-    transition: all 0.25s ease-in-out;
-}
-.block__films:hover .block__text {
-    opacity: 0.75;
-    transform: translate(0px, 0px) rotate(0deg);
-}
-
-/* F */
-#f-1 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/e9008e2f-433f-43b0-b9b8-2ea8e3fb6c9b/300x450") center no-repeat;
-}
-#f-2 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/80eab631-346c-4c29-b14d-1fa1438158f9/300x450") center no-repeat;
-}
-#f-3 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/b5e622a2-f19a-458c-8e74-f905a913e0ad/300x450") center no-repeat;
-}
-#f-4 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/26cf055e-88de-45bc-bd2d-959ba0197707/300x450") center no-repeat;
-}
-#f-5 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/c6a177d6-bb8a-4a8e-b156-03a841948b4f/300x450") center no-repeat;
-}
-#f-6 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/7f595a01-93f3-45b1-8669-6a52aef6d3a1/300x450") center no-repeat;
-}
-#f-7 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/8277905e-aa09-465d-b0de-7c389a42f215/300x450") center no-repeat;
-}
-#f-8 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a7de8b77-34a0-4b22-9574-acec6c689958/300x450") center no-repeat;
-}
-#f-9 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/93898f89-91a1-4084-a2c7-5e5deac4933a/300x450") center no-repeat;
-}
-#f-10 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/a65f24e3-10db-4325-87b6-49037781ada0/300x450") center no-repeat;
-}
-#f-11 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/90ecc695-b927-45b4-a012-d9da7e674f52/300x450") center no-repeat;
-}
-#f-12 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/1441cd7d-a538-4724-b7f0-e131b2fdab21/300x450") center no-repeat;
-}
-#f-13 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/a594e007-e67b-4eab-ae03-b86192804531/300x450") center no-repeat;
-}
-#f-14 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/8dd570e1-eaac-4c2b-945d-1209bc64a187/300x450") center no-repeat;
-}
-#f-15 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/8adda490-54b6-4780-86ad-d42f0aa020da/300x450") center no-repeat;
-}
-#f-16 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/1d8dcbf7-9dff-4787-bdaa-9afad82bdde2/300x450") center no-repeat;
-}
-#f-17 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/f78a6855-c273-4fa3-a2a8-df122d1cf7be/300x450") center no-repeat;
-}
-#f-18 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/b4ad6578-cc40-4547-aaf0-c85cfa752b99/300x450") center no-repeat;
-}
-#f-19 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/ccfb6c21-7e92-4e2d-86fb-002256709869/300x450") center no-repeat;
-}
-#f-20 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/d8cdc133-694f-46e2-a93e-87d620e90a29/300x450") center no-repeat;
-}
-#f-21 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/e4a4a17c-0d1b-4b25-834f-9c760150e33a/300x450") center no-repeat;
-}
-#f-22 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/b691e63c-58fd-4988-9568-e2f3f815694b/300x450") center no-repeat;
-}
-#f-23 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/e56fd0c1-5840-43e0-aef9-3f21dc99fa0d/300x450") center no-repeat;
-}
-#f-24 {
-    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/193e3812-6644-42df-a29e-2beb90e20239/300x450") center no-repeat;
 }
