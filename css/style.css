@@ -558,6 +558,8 @@ th {
     text-transform: uppercase;
 }
 .films {
+    display: flex;
+    justify-content: space-evenly;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
