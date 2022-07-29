@@ -528,3 +528,17 @@ th {
 .sections:hover {
     opacity: 1;
 }
+
+/* Contacts */
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+.contacts__logo {
+    margin: 0px 10px;
+    opacity: 0.75;
+    transition: 0.5s all;
+}
+.contacts__logo:hover {
+    opacity: 1;
+}
