@@ -536,7 +536,7 @@ th {
 }
 .contacts__logo {
     margin: 0px 10px;
-    opacity: 0.75;
+    opacity: 0.5;
     transition: 0.5s all;
 }
 .contacts__logo:hover {
