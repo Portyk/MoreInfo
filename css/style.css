@@ -542,10 +542,3 @@ th {
 .contacts__logo:hover {
     opacity: 1;
 }
-
-/* Physics */
-.physics-text {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-}
